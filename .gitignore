@@ -1,0 +1,15 @@
+# 构建产物
+*.exe
+*.o
+*.out
+
+# Lean 编译产物
+*.olean
+*.ilean
+.lake/
+build/
+
+# 大型下载文件（Lean 工具链压缩包及分片，不入库）
+*.zip
+*.bin
+part_*.bin
